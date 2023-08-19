@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 1rem; */
+}
+body{
+    font-family: Roboto,sans-serif;
+    min-height: 100vh;
+
+    background-color:#ffffff;
+    
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    width: inherit;
+    border: 1px solid yellow;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul:last-child{
+    padding-right: 20px;
+}
+header nav{
+    display: flex;
+    margin:0;
+    padding: 0;
+    justify-content: space-between;
+} 
+
+header nav ul {
+    list-style-type:none;
+    display:flex;
+    gap:10px;
+}
+header nav ul li {
+    text-align: center;
+    /* border:1px solid gray; */
+    margin:auto;
+}
+header,footer{
+    position:sticky;
+    background-color: #1e293b;
+    color:whitesmoke;
+}
+.container{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    /* border: 1px solid green; */
+    width: 100vw;
+}
+
+.container form{
+    padding-left: 20px;
+    padding-top:20px;
+    display:flex;
+    flex-direction: column;
+}
+.container input,select{
+    font-size:inherit;
+    width: 300px;
+}
+
+.container form ssubmit {
+border:1px solid  
+}
+
+.container form input,select{
+    margin-bottom: 10px;
+}
+
+header{
+    top:0;
+    background-color: 474549;
+}
+
+main{
+    flex-grow:1;
+    border:2px solid 0d0d0d;
+}
+
+.sidebar{
+min-width: 200px;
+/* border:1px solid blue; */
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    border:1px solid 0d0d0d;
+    gap:10px;
+}
+
+nav{
+    background-color: white;
+    color:#000;
+    padding:0.5rem;
+    border-bottom:2px solid #0d0d0d;
+    flex-direction: row;
+}
+footer{
+    bottom:0;
+}
+
+table{
+    font-size:1rem;
+    color:#fff;
+    width: 95%;
+    border-collapse:collapse;
+}
+th{
+    background-color: green;
+    padding: .7rem 2rem;
+    }
+tbody tr{
+    height:3rem;
+}
+td{
+    text-align: left;
+    padding-left: 1rem;
+}
+th:first-child{
+    background-color: green;
+    border-top-left-radius: 10px;
+}
+th:last-child{
+    background-color: green;
+    border-top-right-radius: 10px;
+}
+
+tbody{
+    background-color: #fff;
+    color: #1e293b;
+    }
+
+/* th{
+    padding:10px 30px;
+}
+
+
+
+thead{
+    
+}
+td{
+    padding: 5px 10px;
+} */
+
+h2{
+    margin-bottom: 1rem;
+}
+
+input,select {
+    border:1px solid #0d0d0d;
+    border-radius: 5px;
+    padding:8px 10px;
+}
+
+h2{
+    font-weight:bolder;
+}

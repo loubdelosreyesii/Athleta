@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletes</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body> 
+    <header>
+        <h1>Header</h1>
+        <nav>
+            <h2>Athleta</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="athletes.html">Athletes</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li>Home</li>
+                <li>Athletes</li>
+                <li>Activities</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+        <div class="container">
+            
+            <table>
+                <thead>
+                    <h2>List of Athletes</h2>
+                    <tr>
+                        <th>FIRST NAME</th>
+                        <th>LAST NAME</th>
+                        <th>BIRTHDATE</th>
+                        <th>MOBILE NO.</th>
+                        <th>EMAIL ADDRESS</th>
+                        <th>CLUB NAME</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lou II</td>
+                        <td>de los Reyes</td>
+                        <td>06/01/1990</td>
+                        <td>09696324634</td>
+                        <td>loubdelosreyesii@gmail.com</td>
+                        <td>4Kings Multisports</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lou Renz</td>
+                        <td>de los Reyes</td>
+                        <td>07/03/1991</td>
+                        <td>09696324634</td>
+                        <td>loubdelosreyesii@gmail.com</td>
+                        <td>4Kings Multisports</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Lourelie Blanca</td>
+                        <td>de los Reyes</td>
+                        <td>10/13/1992</td>
+                        <td>09696324634</td>
+                        <td>loubdelosreyesii@gmail.com</td>
+                        <td>4Kings Multisports</td>
+                        <td>
+                            <button id="athlete" >Edit</button>
+                            <button>Delete</button>
+                        </td>
+
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById("athlete").onclick = function () {
+            location.href = "athlete.html";
+        };
+    </script>
+</body>
+</html>

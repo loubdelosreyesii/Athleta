@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletes</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body> 
+    <header>
+        <h1>Header</h1>
+        <nav>
+            <h2>Athleta</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="athletes.html">Athletes</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li>Home</li>
+                <li>Athletes</li>
+                <li>Activities</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+        <div class="container">
+            <form action="athletes.html">
+                <h2>Create Your Athlete Profile</h2>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name here">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your last name here">
+
+                <label for="mobileno">Mobile Number</label>
+                <input type="tel" id="mobileno" name="mobileno" placeholder="Enter your Contact Number here">
+                
+                <label for="birthdate">Birth Date</label>
+                <input type="date" id="birthdate" name="birthdate" placeholder="Enter your birthdate">
+
+                <label for="birthdate">Email Address</label>
+                <input type="email" id="emailaddress" name="emailaddress" placeholder="Enter your email address">
+
+                <label for="clubname">Club Name</label>
+                <input type="text" id="clubname" name="clubname" placeholder="Enter your club name">
+
+                <label for="sport">Select Sport</label>
+                <select name="sport" id="sport">
+                    <option value="basketball">Table Tennis</option>
+                </select>
+                <input type="submit" value="Save Profile">  
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
